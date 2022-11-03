@@ -4,8 +4,8 @@ export class BlockHeader implements IBlockHeader {
   public timestamp: number;
   public previousHash: string;
   constructor(_previousBlock: IBlock) {
-    this.version = "";
-    this.timestamp = 1;
+    this.version = BlockHeader.getVersion();
+    this.timestamp = BlockHeader.getTimestamp();
     this.height = _previousBlock.height + 1;
     this.previousHash = _previousBlock.hash;
   }

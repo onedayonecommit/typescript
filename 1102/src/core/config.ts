@@ -1,5 +1,14 @@
 // 제네시스 블록 만들기
 
+/** 난이도 조절 블록 범위 */
+export const DIFFICULTY_ADJUSTMENT_INTERVAL: number = 10;
+
+/** 블록 생성 시간 (분) 10*60 == 600 */
+export const BLOCK_GENERATION_INTERVAL: number = 10;
+
+/** 블록 생성 시간 (초) */
+export const BLOCK_GENERATION_TIME_UNIT: number = 60;
+
 export const GENESIS: IBlock = {
   version: "1.0.0",
   height: 0,

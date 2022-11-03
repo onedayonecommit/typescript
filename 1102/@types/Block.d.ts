@@ -1,6 +1,7 @@
 // 블록 타입 정의
 
 declare interface IBlockHeader {
+  //
   version: string;
   height: number;
   timestamp: number;
