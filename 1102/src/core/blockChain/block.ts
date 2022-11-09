@@ -3,7 +3,8 @@ import merkle from "merkle";
 import { BlockHeader } from "./blockHeader";
 import { DIFFICULTY_ADJUSTMENT_INTERVAL, BLOCK_GENERATION_INTERVAL, BLOCK_GENERATION_TIME_UNIT, GENESIS } from "@core/config";
 import hexToBinary from "hex-to-binary";
-// 부모 속성 가져오고 IBlock 인터페이스 형태 클래스 만듬\
+
+// 부모 속성 가져오고 IBlock 인터페이스 형태 클래스 만듬
 export class Block extends BlockHeader implements IBlock {
   public hash: string;
   public merkleRoot: string;
