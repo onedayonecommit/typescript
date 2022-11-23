@@ -1,0 +1,15 @@
+{
+  "config": {
+    "chainId": 49277,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0
+  },
+  "alloc": {},
+  "difficulty": "0x8000",
+  "gasLimit": "0x1000000"
+}
